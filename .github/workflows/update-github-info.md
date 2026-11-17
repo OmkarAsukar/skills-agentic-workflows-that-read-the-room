@@ -20,6 +20,7 @@ network:
     - copilot
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     allowed-files:
@@ -38,8 +39,9 @@ Use web fetch to read both:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
-Identify recent, official updates that offer a practical takeaway for developers and fit the site's existing editorial angle. Do not invent details, dates, or announcements. Preserve the existing useful content and structure; update only `site/content/github-info.md`. For each addition, include a concise summary and a direct source link, naming whether it came from the GitHub Blog or Changelog.
+Identify recent, official updates or useful GitHub Copilot workflows that offer a practical takeaway for developers and fit the site's existing editorial angle. Use the Awesome Copilot workflows page as an additional source alongside the GitHub Blog and Changelog. Do not invent details, dates, or announcements. Preserve the existing useful content and structure; update only `site/content/github-info.md`. For each addition, include a concise summary and a direct source link, naming the source.
 
 Avoid duplicating items already covered on the page. If neither source has a sufficiently useful new item, if the sources cannot be verified, or if the page needs no meaningful change, make no edits and call `noop` with a brief reason.
 
